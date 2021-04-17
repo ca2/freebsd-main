@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/archive" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/archive/platform-freebsd" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/archive/platform-posix" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/archive/storage-freebsd" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/archive/third-freebsd" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/archive/tool-freebsd" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/source" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/source/app" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/source/app-cidadedecuritiba" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/source/app-complex" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/source/app-core" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/source/app-simple" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/source/app-veriwell" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/source/ca2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/source/console" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/source/console-core" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/source/design" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/source/game" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/source/include" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/source/third" vcs="Git" />
+  </component>
+</project>
