@@ -7,6 +7,9 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 message(STATUS "CMAKE_SYSTEM_NAME is ${CMAKE_SYSTEM_NAME}")
 
 
+
+
+
 add_compile_options("$<$<CONFIG:DEBUG>:-DDEBUG>")
 
 
@@ -14,6 +17,16 @@ if(${CMAKE_SYSTEM_NAME} STREQUAL "FreeBSD")
     set(FREEBSD TRUE)
     set(PLATFORM_NAME "freebsd")
     set(PLATFORM_POSIX TRUE)
+
+
+    if($ENV{XDG_CURRENT_DESKTOP} STREQUAL "KDE")
+        set(KDE_DESKTOP TRUE)
+    elseif($ENV{XDG_CURRENT_DESKTOP} STREQUAL "ubuntu:GNOME")
+        set(GNOME_DESKTOP TRUE)
+    elseif($ENV{XDG_CURRENT_DESKTOP} STREQUAL "GNOME")
+        set(GNOME_DESKTOP TRUE)
+    endif()
+
     include(FindPkgConfig)
     set(default_draw2d "draw2d_cairo")
     set(default_imaging "imaging_freeimage")
@@ -22,11 +35,6 @@ if(${CMAKE_SYSTEM_NAME} STREQUAL "FreeBSD")
     set(default_node "node_freebsd")
 
 
-    if($ENV{XDG_CURRENT_DESKTOP} STREQUAL "KDE")
-        set(FREEBSD_KDE TRUE)
-    elseif($ENV{XDG_CURRENT_DESKTOP} STREQUAL "GNOME")
-        set(FREEBSD_GNOME TRUE)
-    endif()
 
 
 elseif(${CMAKE_SYSTEM_NAME} STREQUAL "Linux")
@@ -48,7 +56,7 @@ endif()
 
 if(FREEBSD)
 
-    if(FREEBSD_GNOME)
+    if(GNOME_DESKTOP)
 
         list(APPEND app_common_dependencies
                 node_gnome
@@ -56,7 +64,7 @@ if(FREEBSD)
 
     endif()
 
-    if(FREEBSD_KDE)
+    if(KDE_DESKTOP)
 
         list(APPEND app_common_dependencies
                 node_kde
@@ -66,7 +74,7 @@ if(FREEBSD)
 
 elseif(LINUX OR FREEBSD)
 
-    if(LINUX_GNOME)
+    if(GNOME_DESKTOP)
 
         list(APPEND app_common_dependencies
                 node_gnome
@@ -74,7 +82,7 @@ elseif(LINUX OR FREEBSD)
 
     endif()
 
-    if(LINUX_KDE)
+    if(KDE_DESKTOP)
 
         list(APPEND app_common_dependencies
                 node_kde
