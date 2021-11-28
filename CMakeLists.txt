@@ -21,10 +21,13 @@ if(${CMAKE_SYSTEM_NAME} STREQUAL "FreeBSD")
 
     if($ENV{XDG_CURRENT_DESKTOP} STREQUAL "KDE")
         set(KDE_DESKTOP TRUE)
+        set(WITH_XCB TRUE)
     elseif($ENV{XDG_CURRENT_DESKTOP} STREQUAL "ubuntu:GNOME")
         set(GNOME_DESKTOP TRUE)
+        set(WITH_X11 TRUE)
     elseif($ENV{XDG_CURRENT_DESKTOP} STREQUAL "GNOME")
         set(GNOME_DESKTOP TRUE)
+        set(WITH_X11 TRUE)
     endif()
 
     include(FindPkgConfig)
