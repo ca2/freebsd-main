@@ -7,7 +7,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 message(STATUS "CMAKE_SYSTEM_NAME is ${CMAKE_SYSTEM_NAME}")
 
 
-
+set(ROOT_SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR})
 
 
 add_compile_options("$<$<CONFIG:DEBUG>:-DDEBUG>")
@@ -62,6 +62,11 @@ endif()
 
 if(FREEBSD)
 
+
+    set(APPLICATION_BUILD_RESOURCE_OBJECT_PRE "ld -r -b binary -o ")
+    set(APPLICATION_BUILD_RESOURCE_OBJECT_POS "/_matter.zip.o _matter.zip")
+
+
     if(GNOME_DESKTOP)
 
         list(APPEND app_common_dependencies
@@ -78,7 +83,12 @@ if(FREEBSD)
 
     endif()
 
-elseif(LINUX OR FREEBSD)
+elseif(LINUX)
+
+
+
+    set(APPLICATION_BUILD_RESOURCE_OBJECT_PRE "ld -r -b binary -o ")
+    set(APPLICATION_BUILD_RESOURCE_OBJECT_POS "/_matter.zip.o _matter.zip")
 
     if(GNOME_DESKTOP)
 
@@ -117,6 +127,7 @@ add_compile_definitions(_UNICODE)
 set(LIBRARY_OUTPUT_PATH ${CMAKE_CURRENT_SOURCE_DIR}/time-${PLATFORM_NAME}/cmake)
 set(EXECUTABLE_OUTPUT_PATH ${CMAKE_CURRENT_SOURCE_DIR}/time-${PLATFORM_NAME}/cmake)
 
+set(APPLICATION_BUILD_HELPER ${ROOT_SOURCE_DIR}/archive/tool-${PLATFORM_NAME}/bin/application_build_helper)
 
 link_directories(${LIBRARY_OUTPUT_PATH})
 link_directories(${CMAKE_CURRENT_SOURCE_DIR}/archive/storage-${PLATFORM_NAME}/library/x64/basis)
@@ -141,6 +152,7 @@ add_subdirectory(source/app/acme)
 add_subdirectory(source/app/crypto_openssl)
 add_subdirectory(archive/platform-posix/acme_posix)
 add_subdirectory(archive/platform-freebsd/acme_freebsd)
+add_subdirectory(source/console/application_build_helper)
 add_subdirectory(source/console/hello)
 add_subdirectory(source/console/helloearth)
 add_subdirectory(source/app/apex)
