@@ -127,7 +127,7 @@ add_compile_definitions(_UNICODE)
 set(LIBRARY_OUTPUT_PATH ${CMAKE_CURRENT_SOURCE_DIR}/time-${PLATFORM_NAME}/cmake)
 set(EXECUTABLE_OUTPUT_PATH ${CMAKE_CURRENT_SOURCE_DIR}/time-${PLATFORM_NAME}/cmake)
 
-set(APPLICATION_BUILD_HELPER ${ROOT_SOURCE_DIR}/archive/tool-${PLATFORM_NAME}/bin/application_build_helper)
+set(APPLICATION_BUILD_HELPER "${ROOT_SOURCE_DIR}/archive/tool-${PLATFORM_NAME}/bin/application_build_helper")
 
 link_directories(${LIBRARY_OUTPUT_PATH})
 link_directories(${CMAKE_CURRENT_SOURCE_DIR}/archive/storage-${PLATFORM_NAME}/library/x64/basis)
