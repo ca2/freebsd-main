@@ -73,6 +73,9 @@ if(FREEBSD)
                 desktop_environment_gnome
                 windowing_x11)
 
+        set(WITH_X11 TRUE)
+        add_compile_definitions(WITH_X11=1)
+
     endif()
 
     if(KDE_DESKTOP)
