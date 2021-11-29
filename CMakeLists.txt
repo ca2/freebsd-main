@@ -63,8 +63,8 @@ endif()
 if(FREEBSD)
 
 
-    set(APPLICATION_BUILD_RESOURCE_OBJECT_PRE "ld -r -b binary -o ")
-    set(APPLICATION_BUILD_RESOURCE_OBJECT_POS "/_matter.zip.o _matter.zip")
+    set(APPLICATION_BUILD_RESOURCE_OBJECT_PRE "$(LD) -r -o ")
+    set(APPLICATION_BUILD_RESOURCE_OBJECT_POS "/_matter.zip.o -z noexecstack --format=binary _matter.zip")
 
 
     if(GNOME_DESKTOP)
