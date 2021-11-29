@@ -184,6 +184,10 @@ add_subdirectory(archive/platform-posix/aura_posix)
 add_subdirectory(archive/platform-freebsd/aura_freebsd)
 add_subdirectory(source/app/draw2d_cairo)
 add_subdirectory(source/app/app)
+add_subdirectory(source/app/message_box)
+add_subdirectory(source/app/gpu_opengl)
+add_subdirectory(source/app/shader)
+add_subdirectory(source/app-simple/application)
 
 
 
