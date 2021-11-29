@@ -70,7 +70,7 @@ if(FREEBSD)
     if(GNOME_DESKTOP)
 
         list(APPEND app_common_dependencies
-                node_gnome
+                desktop_environment_gnome
                 windowing_x11)
 
     endif()
@@ -78,10 +78,15 @@ if(FREEBSD)
     if(KDE_DESKTOP)
 
         list(APPEND app_common_dependencies
-                node_kde
+                desktop_environment_kde
                 windowing_xcb)
 
     endif()
+
+
+    list(APPEND app_common_dependencies
+       node_freebsd)
+
 
 elseif(LINUX)
 
@@ -166,10 +171,12 @@ if(GNOME_DESKTOP)
 add_subdirectory(archive/platform-posix/windowing_x11)
 add_subdirectory(archive/platform-posix/node_gnome)
 add_subdirectory(archive/platform-posix/node_gtk)
+add_subdirectory(archive/platform-${PLATFORM_NAME}/desktop_environment_gnome)
 endif()
 if(KDE_DESKTOP)
 add_subdirectory(archive/platform-posix/windowing_xcb)
 add_subdirectory(archive/platform-posix/node_kde)
+add_subdirectory(archive/platform-${PLATFORM_NAME}/desktop_environment_kde)
 endif()
 add_subdirectory(archive/platform-freebsd/node_freebsd)
 add_subdirectory(source/app/aura)
