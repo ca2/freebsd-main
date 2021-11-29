@@ -247,6 +247,7 @@ add_subdirectory(source/app/shader)
 add_subdirectory(source/app/axis)
 add_subdirectory(source/app/database_sqlite3)
 add_subdirectory(source/app/experience_core)
+add_subdirectory(source/app/base)
 add_subdirectory(source/app-simple/application)
 
 
