@@ -21,16 +21,10 @@ if(${CMAKE_SYSTEM_NAME} STREQUAL "FreeBSD")
 
     if($ENV{XDG_CURRENT_DESKTOP} STREQUAL "KDE")
         set(KDE_DESKTOP TRUE)
-        set(WITH_XCB TRUE)
-        add_compile_definitions(WITH_XCB=1)
     elseif($ENV{XDG_CURRENT_DESKTOP} STREQUAL "ubuntu:GNOME")
         set(GNOME_DESKTOP TRUE)
-        set(WITH_X11 TRUE)
-        add_compile_definitions(WITH_X11=1)
     elseif($ENV{XDG_CURRENT_DESKTOP} STREQUAL "GNOME")
         set(GNOME_DESKTOP TRUE)
-        set(WITH_X11 TRUE)
-        add_compile_definitions(WITH_X11=1)
     endif()
 
     include(FindPkgConfig)
@@ -60,11 +54,8 @@ elseif(WIN32)
     set(default_audio "audio_mmsystem")
 endif()
 
+
 if(FREEBSD)
-
-
-    set(APPLICATION_BUILD_RESOURCE_OBJECT_PRE "$(LD) -r -o ")
-    set(APPLICATION_BUILD_RESOURCE_OBJECT_POS "/_matter.zip.o -z noexecstack --format=binary _matter.zip")
 
 
     if(GNOME_DESKTOP)
