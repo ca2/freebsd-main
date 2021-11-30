@@ -55,6 +55,9 @@ elseif(WIN32)
 endif()
 
 
+set(default_gpu "gpu_opengl")
+
+
 if(FREEBSD)
 
 
@@ -243,7 +246,11 @@ add_subdirectory(source/app/database_sqlite3)
 add_subdirectory(source/app/experience_core)
 add_subdirectory(source/app/base)
 add_subdirectory(source/app-simple/application)
-
+add_subdirectory(source/app/imaging_freeimage)
+add_subdirectory(source/app-simple/drawing)
+add_subdirectory(source/app-simple/networking_application)
+add_subdirectory(source/app-simple/notify_drawing)
+add_subdirectory(source/app-simple/shader)
 
 
 
