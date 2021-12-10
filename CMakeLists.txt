@@ -252,6 +252,12 @@ add_subdirectory(source/app-simple/drawing)
 add_subdirectory(source/app-simple/networking_application)
 add_subdirectory(source/app-simple/notify_drawing)
 add_subdirectory(source/app-simple/shader)
+add_subdirectory(source/app-simple/form)
+add_subdirectory(source/app-complex/drawing)
+add_subdirectory(source/app/experience_tranquillum)
+add_subdirectory(source/app-complex/form)
+add_subdirectory(source/game/estamira)
+add_subdirectory(source/game/light)
 
 
 
