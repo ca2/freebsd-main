@@ -18,8 +18,6 @@ if(${CMAKE_SYSTEM_NAME} STREQUAL "FreeBSD")
     set(PLATFORM_NAME "freebsd")
     set(PLATFORM_POSIX TRUE)
 
-    set(FILE_SYSTEM_INOTIFY TRUE)
-
     if($ENV{XDG_CURRENT_DESKTOP} STREQUAL "KDE")
         set(KDE_DESKTOP TRUE)
     elseif($ENV{XDG_CURRENT_DESKTOP} STREQUAL "ubuntu:GNOME")
@@ -35,6 +33,9 @@ if(${CMAKE_SYSTEM_NAME} STREQUAL "FreeBSD")
     set(default_audio "audio_alsa")
     set(default_node "node_freebsd")
     set(default_music_midi "music_midi_rtmidi")
+
+    set(FILE_SYSTEM_INOTIFY TRUE)
+    set(USE_KQUEUE_FILE_WATCHER_DIRECTLY FALSE)
 
 
 
