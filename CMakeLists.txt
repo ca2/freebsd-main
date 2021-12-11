@@ -35,7 +35,7 @@ if(${CMAKE_SYSTEM_NAME} STREQUAL "FreeBSD")
     set(default_music_midi "music_midi_rtmidi")
 
     set(FILE_SYSTEM_INOTIFY TRUE)
-    #set(USE_KQUEUE_FILE_WATCHER_DIRECTLY TRUE)
+    #set(USE_KQUEUE_FILE_WATCHER_DIRECTLY)
 
 
 
