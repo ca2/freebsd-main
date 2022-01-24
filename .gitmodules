@@ -1,6 +1,6 @@
-[submodule "archive"]
-	path = archive
-	url = ../freebsd-archive
+[submodule "operating-system"]
+	path = operating-system
+	url = ../freebsd-operating-system
 [submodule "source"]
 	path = source
 	url = ../basis-source
