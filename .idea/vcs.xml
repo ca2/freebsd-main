@@ -44,6 +44,7 @@
     <mapping directory="$PROJECT_DIR$/source/port/rawlite" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/source/port/sqlite" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/source/port/strophe" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/source/port/tiff4" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/source/port/webp" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/source/port/zlib" vcs="Git" />
   </component>
