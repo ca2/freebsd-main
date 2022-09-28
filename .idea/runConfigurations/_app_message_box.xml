@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="_app_message_box" type="CMakeRunConfiguration" factoryName="Application" folderName="020 app" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="basis" TARGET_NAME="_app_message_box" CONFIG_NAME="basis" RUN_TARGET_PROJECT_NAME="basis" RUN_TARGET_NAME="_app_message_box">
+    <method v="2">
+      <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+    </method>
+  </configuration>
+</component>
