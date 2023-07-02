@@ -3,4 +3,9 @@
 	url = ../freebsd-operating-system
 [submodule "source"]
 	path = source
-	url = ../basis-source
+	url = ../main-source
+	branch = main
+[submodule "port"]
+	path = port
+	url = ../freebsd-port
+	branch = main
