@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="_app_core_audioaura" type="CMakeRunConfiguration" factoryName="Application" folderName="070 audio" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="freebsd-main" TARGET_NAME="_app_core_audioaura" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="freebsd-main" RUN_TARGET_NAME="_app_core_audioaura">
+    <method v="2">
+      <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+    </method>
+  </configuration>
+</component>
