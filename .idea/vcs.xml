@@ -12,7 +12,9 @@
     <mapping directory="$PROJECT_DIR$/port/base/unac" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/port/common" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/port/common/debugbreak" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/port/common/jwt-cpp" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/port/common/nanosvg" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/port/common/picojson" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/port/common/rapidjson" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/port/common/rapidjson/thirdparty/gtest" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/source" vcs="Git" />
