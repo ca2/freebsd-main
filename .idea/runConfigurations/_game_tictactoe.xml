@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="_game_tictactoe" type="CMakeRunConfiguration" factoryName="Application" folderName="110 arcade" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="freebsd-main" TARGET_NAME="_game_tictactoe" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="freebsd-main" RUN_TARGET_NAME="_game_tictactoe">
+  <configuration default="false" name="_game_tictactoe" type="CMakeRunConfiguration" factoryName="Application" folderName="110 arcade" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="freebsd-main" TARGET_NAME="_game_tictactoe" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="freebsd-main" RUN_TARGET_NAME="_game_tictactoe">
     <method v="2">
       <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
     </method>
