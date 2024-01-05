@@ -15,6 +15,7 @@ app-core/alarm
 app-core/ambient
 app-core/animated_wallpaper
 app-core/audio_recorder
+app-core/audio_viewer
 app-core/audioaura
 app-core/auraclick
 app-core/auratype
@@ -28,6 +29,7 @@ app-core/file_rename
 app-core/flag
 app-core/font_list
 app-core/fuel
+app-core/google_fonts
 app-core/hash_crc
 app-core/hash_hub
 app-core/hash_md5
@@ -50,6 +52,8 @@ app-simple/box
 app-simple/change_grub_default_entry
 app-simple/drawing
 app-simple/form
+app-simple/http
+app-simple/http_file_server
 app-simple/nanoui_example
 app-simple/networking_application
 app-simple/notify_drawing
@@ -59,11 +63,12 @@ app-simple/shortcut_amender
 app-veriwell/a2
 app-veriwell/asciimedia
 app-veriwell/keyboard
-app-veriwell/musical_player_lite
 app-veriwell/musical_player
+app-veriwell/musical_player_lite
 app-veriwell/verisimplevideo
 app-veriwell/waven
 design/biteditor
+design/composite
 design/design
 design/text
 design/text_format
