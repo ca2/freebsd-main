@@ -52,8 +52,8 @@ app-simple/box
 app-simple/change_grub_default_entry
 app-simple/drawing
 app-simple/form
-app-simple/http
 app-simple/http_file_server
+app-simple/http
 app-simple/nanoui_example
 app-simple/networking_application
 app-simple/notify_drawing
@@ -80,6 +80,6 @@ game/game_of_life
 game/light
 game/pacman
 game/particle
+game/quadsquare
 game/sokoban
-game/tetris
 game/tictactoe
