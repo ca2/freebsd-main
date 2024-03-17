@@ -42,13 +42,15 @@ operating_system/operating_system-posix/input_libinput
 operating_system/operating_system-posix/input_xinput
 operating_system/operating_system-posix/music_midi_alsa
 operating_system/operating_system-posix/node_gnome
-operating_system/operating_system-posix/node_gtk
 operating_system/operating_system-posix/node_kde
 operating_system/operating_system-posix/node_xfce
 operating_system/operating_system-posix/windowing_wayland
 operating_system/operating_system-posix/windowing_x11
 operating_system/operating_system-posix/windowing_xcb
 operating_system/operating_system-posix/write_text_pango
+operating_system/operating_system-posix/audio_sndio
+operating_system/operating_system-posix/node_gtk3
+operating_system/operating_system-posix/node_gtk4
 source/app/.idea
 source/app/_ambient
 source/app/_config
@@ -506,6 +508,6 @@ source/game/pacman
 source/game/particle
 source/game/quadsquare
 source/game/sokoban
-source/game/tictactoe
 source/game/tetris
+source/game/tictactoe
 source/tool-macos/bin
