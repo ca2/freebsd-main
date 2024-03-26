@@ -43,6 +43,7 @@ operating_system/operating_system-posix/input_libinput
 operating_system/operating_system-posix/input_xinput
 operating_system/operating_system-posix/music_midi_alsa
 operating_system/operating_system-posix/node_gnome
+operating_system/operating_system-posix/node_gtk
 operating_system/operating_system-posix/node_gtk3
 operating_system/operating_system-posix/node_gtk4
 operating_system/operating_system-posix/node_kde
@@ -51,7 +52,6 @@ operating_system/operating_system-posix/windowing_wayland
 operating_system/operating_system-posix/windowing_x11
 operating_system/operating_system-posix/windowing_xcb
 operating_system/operating_system-posix/write_text_pango
-operating_system/operating_system-posix/node_gtk
 source/app/.idea
 source/app/_ambient
 source/app/_config
@@ -299,6 +299,7 @@ source/app-core/announcecom.xcodeproj
 source/app-core/netnode_netshare_server
 source/app-core/lctv
 source/app-core/archive_2021
+source/app-core/database_mariadb
 source/app-core/audio_decode_spotify
 source/app-core/mk1expander
 source/app-core/audio
@@ -391,7 +392,6 @@ source/app-core/winutil
 source/app-core/xmpp
 source/app-core/yee
 source/app-core/zmenu
-source/app-core/database_mariadb
 source/app-simple/_aaa
 source/app-simple/_group
 source/app-simple/_macos
