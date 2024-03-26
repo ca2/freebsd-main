@@ -1,11 +1,7 @@
 app/app
-app/build
-app/integration
 app/just_message_box
 app/message_box
-app/net
 app/shader
-app/start_netnode
 app-cidadedecuritiba/alphaclock
 app-complex/drawing
 app-complex/form
@@ -13,14 +9,11 @@ app-complex/video_capture
 app-core/addressbook
 app-core/alarm
 app-core/ambient
-app-core/animated_wallpaper
-app-core/audio_recorder
 app-core/audio_viewer
 app-core/audioaura
 app-core/auraclick
 app-core/auratype
 app-core/calculator
-app-core/cefclient
 app-core/chronometer
 app-core/clockverse
 app-core/desk
