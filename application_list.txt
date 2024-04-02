@@ -9,6 +9,7 @@ app-complex/video_capture
 app-core/addressbook
 app-core/alarm
 app-core/ambient
+app-core/audio_recorder
 app-core/audio_viewer
 app-core/audioaura
 app-core/auraclick
