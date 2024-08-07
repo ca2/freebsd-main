@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="_app_core_file_manager" type="CMakeRunConfiguration" factoryName="Application" folderName="100 foundation" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="freebsd-main" TARGET_NAME="_app_core_file_manager" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="freebsd-main" RUN_TARGET_NAME="_app_core_file_manager">
+  <configuration default="false" name="_app_core_file_manager" type="CMakeRunConfiguration" factoryName="Application" folderName="100 foundation" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="freebsd-main" TARGET_NAME="_app_core_file_manager" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="freebsd-main" RUN_TARGET_NAME="_app_core_file_manager">
     <method v="2">
       <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
     </method>
