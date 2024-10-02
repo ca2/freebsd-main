@@ -1,5 +1,10 @@
 app/app
-app/just_message_box
+app/just_acme_message_box
+app/just_apex_message_box
+app/just_aqua_message_box
+app/just_aura_message_box
+app/launch/integration
+app/launch2/integration
 app/message_box
 app/shader
 app-cidadedecuritiba/alphaclock
@@ -40,6 +45,7 @@ app-core/resident_desktop
 app-core/store
 app-core/timer
 app-core/todo
+app-core/vulken
 app-core/weather
 app-simple/application
 app-simple/box
@@ -48,6 +54,7 @@ app-simple/drawing
 app-simple/form
 app-simple/http
 app-simple/http_file_server
+app-simple/http_folder_upload
 app-simple/nanoui_example
 app-simple/networking_application
 app-simple/notify_drawing
