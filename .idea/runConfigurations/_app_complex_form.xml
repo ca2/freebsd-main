@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="_app_complex_form" type="CMakeRunConfiguration" factoryName="Application" folderName="050 complex" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_app_complex_form" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="_app_complex_form">
+  <configuration default="false" name="_app_complex_form" type="CMakeRunConfiguration" factoryName="Application" folderName="050 complex" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="freebsd-main" TARGET_NAME="_app_complex_form" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="freebsd-main" RUN_TARGET_NAME="_app_complex_form">
     <method v="2">
       <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
     </method>
