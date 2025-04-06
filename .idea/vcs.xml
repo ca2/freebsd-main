@@ -22,6 +22,8 @@
     <mapping directory="$PROJECT_DIR$/source/app-cidadedecuritiba" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/source/app-complex" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/source/app-core" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/source/app-interface" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/source/app-interface/api_twitch" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/source/app-simple" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/source/app-veriwell" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/source/audio" vcs="Git" />
