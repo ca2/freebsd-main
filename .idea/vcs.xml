@@ -8,6 +8,7 @@
     <mapping directory="$PROJECT_DIR$/operating_system/operating_system-posix" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/port" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/port/base" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/port/base/glm" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/port/base/id3lib" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/port/base/stb" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/port/base/tinyobjloader" vcs="Git" />
@@ -21,8 +22,9 @@
     <mapping directory="$PROJECT_DIR$/port/common/rapidjson/thirdparty/gtest" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/port/graphics3d" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/port/graphics3d/glad" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/port/graphics3d/glm" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/port/graphics3d/ktx" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/port/graphics3d/ktx/KTX-Software" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/port/graphics3d/ktx/KTX-Software/tests/cts" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/source" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/source/app" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/source/app-cidadedecuritiba" vcs="Git" />
