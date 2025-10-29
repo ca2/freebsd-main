@@ -30,6 +30,7 @@
     <mapping directory="$PROJECT_DIR$/source/app-cidadedecuritiba" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/source/app-complex" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/source/app-core" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/source/app-graphics" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/source/app-interface" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/source/app-interface/api_twitch" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/source/app-multimedia" vcs="Git" />
@@ -38,6 +39,7 @@
     <mapping directory="$PROJECT_DIR$/source/audio" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/source/audio-generation1" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/source/audio-system" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/source/audio-text_to_speech" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/source/audio-user" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/source/console" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/source/console-core" vcs="Git" />

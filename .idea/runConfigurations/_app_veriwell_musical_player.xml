@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="_app_veriwell_musical_player" type="CMakeRunConfiguration" factoryName="Application" folderName="080 multimedia" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_app_veriwell_musical_player" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="_app_veriwell_musical_player">
+  <configuration default="false" name="_app_veriwell_musical_player" type="CMakeRunConfiguration" factoryName="Application" folderName="080 multimedia" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="freebsd-main" TARGET_NAME="_app_veriwell_musical_player" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="freebsd-main" RUN_TARGET_NAME="_app_veriwell_musical_player">
     <method v="2">
       <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
     </method>
