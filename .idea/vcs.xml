@@ -8,7 +8,6 @@
     <mapping directory="$PROJECT_DIR$/operating_system/operating_system-posix" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/port" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/port/base" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/port/base/glm" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/port/base/id3lib" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/port/base/stb" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/port/base/tinyobjloader" vcs="Git" />
