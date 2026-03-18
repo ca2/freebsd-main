@@ -85,3 +85,4 @@ game/particle
 game/quadsquare
 game/sokoban
 game/tictactoe
+resident/resident_desktop
